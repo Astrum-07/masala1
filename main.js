@@ -25,21 +25,45 @@
 // Input: [1, 2, 2, 3, 3, 3, 4]
 // Output: { element: 3, count: 3 }
 
-let arr1 =  [1, 2, 2, 3, 3, 3, 4];
+// let arr1 =  [1, 2, 2, 3, 3, 3, 4];
 
-function foo(n) {
-    let element = []
-    let count = 0
-    for (let i = 0; i < n.length; i++) {
-       for (let j = 0; j < n.length; j++) {
-        if(n[i]==i[j]){
-            count++
-        }
-        
-       }
-        console.log(count);
-    }
-    
-    
-}
-foo(arr1)
+// function foo(n) {
+//     let element = []
+//     let count = 0
+//     for (let i = 0; i < n.length; i++) {
+//        for (let j = 0; j < n.length; j++) {
+//         if(n[i]==i[j]){
+//             count++
+//         }
+
+//        }
+//         console.log(count);
+//     }
+
+// }
+// foo(arr1)
+
+//8) Massiv elementlarini ma’lum shart bo‘yicha guruhlash. Masalan, juft va toq bo‘lishiga qarab.
+
+// Input: [1,2,3,4,5,6]
+// Output: { even: [2,4,6], odd: [1,3,5] }
+
+// let arr = [1,2,3,4,5,6]
+
+// function foo(a) {
+//     let odd =[]
+//     let even =[]
+//     for (let i = 0; i < a.length; i++) {
+//         if(a[i]%2===0){
+//             even.push(a[i])
+//         }else{
+//             odd.push(a[i])
+//         }
+
+//     }
+//     console.log("odd",odd,  "even", even);
+
+// }
+
+// foo(arr)
+
