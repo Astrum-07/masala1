@@ -1,0 +1,50 @@
+Assalomu alaykum hammaga, bu berilgan masalalar sizlarga figma berilmaslik sharti bilan qiyinroq tuzilgan va bu masalalar uchun 48 soat beriladi. Har bir masalani birma-bir tekshirib chiqaman. Masalalarni tuzishda sizlarni tanqidiy fikirlashlangni yani logikalangni oshiradigan masalalar tuzib chiqdim. Masalani ishlashda ko'proq funksiyadan foydalanib,  AI dan esa umuman foydalanmagan holda nech soat ketsayam bajarishga harakat qiling, AI dan foydalanganlangni bilib qolsam vazifalang 0 bilan qayatrilinadi. faqat w3schoolga ruxsat. Hammaga omad ) Happy coding :)
+
+
+1) Ikki massiv berilgan. Ulardagi takrorlangan elementarni arrayga solib qaytaring 
+
+// Input: [1, 2, 3, 4], [3, 4, 5, 6]
+// Output: [3, 4]
+
+
+2) Massiv ichida eng ko‘p uchragan elementni va uning sonini qaytaring.
+
+// Input: [1, 2, 2, 3, 3, 3, 4]
+// Output: { element: 3, count: 3 }
+
+
+3) Massiv va target berilgan. Massivdan ikkita sonni qo‘shganda target chiqsa, ularning indeksini qaytaring.
+
+// Input: [2, 7, 11, 15], target = 9
+// Output: [0, 1]
+
+
+4) Massivni k marta o‘ng tomonga siljiting.
+
+// Input: [1, 2, 3, 4, 5], k=2
+// Output: [4, 5, 1, 2, 3]
+
+
+5) NxM o‘lchamdagi matritsani transpozitsiya qil (qator ↔ ustun almashtirish).
+
+// Input: [[1,2,3],[4,5,6]]
+// Output: [[1,4],[2,5],[3,6]]
+
+
+6) Massivdagi sonlardan eng uzun ketma-ket (consecutive) ketma-ketlik uzunligini toping.
+
+// Input: [100, 4, 200, 1, 3, 2]
+// Output: 4  // (1,2,3,4)
+
+
+7) Stringdagi faqat bir marta uchragan birinchi belgini qaytaring. Agar yo‘q bo‘lsa -1.
+
+// Input: "leetcode"
+// Output: "l"
+
+
+8) Massiv elementlarini ma’lum shart bo‘yicha guruhlash. Masalan, juft va toq bo‘lishiga qarab.
+
+
+// Input: [1,2,3,4,5,6]
+// Output: { even: [2,4,6], odd: [1,3,5] }
